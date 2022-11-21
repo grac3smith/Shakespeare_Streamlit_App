@@ -3,6 +3,7 @@ import streamlit as st
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import re
 import nltk
+nltk.download('punkt')
 import altair as alt
 from collections import Counter
 
